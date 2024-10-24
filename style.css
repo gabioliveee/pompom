@@ -1,0 +1,72 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(180deg, #c59aba, #e280ca); /* Degradê de rosa escuro */
+  color: #f8f3f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #c59aba; /* rosa claro */
+  box-shadow: 0px 4px 15px rgba(153, 89, 153, 0.5);
+  border-bottom: 1px solid #e280ca; /* rosa escuro */
+}
+
+h1 {
+  color: #f8f3f8; /*rosa muito claro */
+  font-size: 2.2em;
+}
+
+p {
+  color: #f8f3f8; /* rosa claro */
+  font-size: 1.3em;
+}
+
+section {
+  padding: 20px;
+}
+
+canvas {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #c59aba; /* Fundo rosa claro para o gráfico */
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(153, 89, 153, 0.5); /* Efeito neon roxo */
+  padding: 15px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ac85af;
+  box-shadow: 0px 4px 15px rgba(218, 121, 205, 0.5);
+}
+
+footer p {
+  color:#f8f3f8 ;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+ul li a {
+  color: #ce85e4; /* rosa claro */
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #e084dc; /* Rosa mais claro ao passar o mouse */
+}
